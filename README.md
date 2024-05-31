@@ -33,5 +33,5 @@ Código: [MaquetaPantalla](https://github.com/SiploxT/AutoClothesline/blob/main/
 
 Estos dos componentes van unidos en un solo código, pues ambos actuan en función de la temperatura.
 El ventilador se activará cuando la temperatura sea mayor a 20ºC, en ese caso se activará el relé que enciende el ventilador.
-En el caso de el LED RGB, indicará la temperatura a través de colores: Rojo (Calor), Verde (Templado), y Azul (Frio).
+En el caso de el LED RGB, indicará la temperatura a través de colores: Rojo (Calor), Verde (Templado), y Azul (Frio).<br/>
 Código: [MaquetaTemperatura](https://github.com/SiploxT/AutoClothesline/blob/main/Codigos/MaquetaTemperatura.py)
