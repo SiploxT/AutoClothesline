@@ -14,3 +14,11 @@ AutoClothesline es un tendal de ropa colocado en el techo que funciona de manera
 Se utilizaran los sensores y actuadores necesarios para que se cumpla con todas las funciones de la maqueta:
 
 ![EsquemaElectronico](https://github.com/SiploxT/AutoClothesline/assets/102182731/2975ebbe-1455-4753-9db8-1db2c21e3a8f)
+
+## 💻 Programación
+
+Para programar todo el código de la maqueta entera, primero debemos hacer el código de cada parte por separado, separando cada actuador según sus necesidades.
+
+### Uso de botones
+
+Los botones del proyecto harán  que este 
