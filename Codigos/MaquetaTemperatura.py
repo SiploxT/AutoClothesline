@@ -18,7 +18,7 @@ while True:
         rojo.duty_u16(65535)
         verde.duty_u16(0)
         azul.duty_u16(0)
-    elif temp<25 and temp>10:
+    elif temp<25 and temp>=10:
         rojo.duty_u16(0)
         verde.duty_u16(65535)
         azul.duty_u16(0)
@@ -27,7 +27,7 @@ while True:
         verde.duty_u16(0)
         azul.duty_u16(65535)
         
-    if temp>10:
+    if temp>20:
         rele.on()
     else:
         rele.off()
