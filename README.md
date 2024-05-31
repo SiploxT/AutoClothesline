@@ -21,7 +21,7 @@ Para programar todo el código de la maqueta entera, primero debemos hacer el c�
 
 ### Uso de botones
 
-Los botones de la maqueta harán que este eleve o descienda el tendal, de manera que simulen un mando a distancia que haría lo mismo.
+Los botones de la maqueta harán que este eleve o descienda el tendal, de manera que simulen un mando a distancia que haría lo mismo.<br/>
 Código: [MaquetaBotones](https://github.com/SiploxT/AutoClothesline/blob/main/Codigos/MaquetaBotonesJoel.py)
 
 ### Uso de pantalla
