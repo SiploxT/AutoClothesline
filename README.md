@@ -21,4 +21,17 @@ Para programar todo el código de la maqueta entera, primero debemos hacer el c�
 
 ### Uso de botones
 
-Los botones del proyecto harán  que este 
+Los botones de la maqueta harán que este eleve o descienda el tendal, de manera que simulen un mando a distancia que haría lo mismo.
+Código: [MaquetaBotones](https://github.com/SiploxT/AutoClothesline/blob/main/Codigos/MaquetaBotonesJoel.py)
+
+### Uso de pantalla
+
+La pantalla LCD mostrará los datos de la temperatura (ºC), humedad (%) y exposición de luz (%).<br/>
+Código: [MaquetaPantalla](https://github.com/SiploxT/AutoClothesline/blob/main/Codigos/MaquetaPantalla.py)
+
+### Uso de ventilador y LED RGB
+
+Estos dos componentes van unidos en un solo código, pues ambos actuan en función de la temperatura.
+El ventilador se activará cuando la temperatura sea mayor a 20ºC, en ese caso se activará el relé que enciende el ventilador.
+En el caso de el LED RGB, indicará la temperatura a través de colores: Rojo (Calor), Verde (Templado), y Azul (Frio).
+Código: [MaquetaTemperatura](https://github.com/SiploxT/AutoClothesline/blob/main/Codigos/MaquetaTemperatura.py)
