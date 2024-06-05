@@ -5,6 +5,7 @@ import time
 
 LDR = ADC(26)
 luz = LDR.read_u16()
+luz = round(luz/65535*100,2)
 
 sdaPIN = machine.Pin(0)
 sclPIN = machine.Pin(1)
@@ -87,24 +88,24 @@ while True:
     lcd.move_to(0, 0)
     lcd.putstr("Temperatura:")
     lcd.move_to(0, 1)
-    lcd.putstr(temp)
-    sleep_ms(3000)
+    lcd.putstr(str(temp) + chr (0xDF) + "C")
+    time.sleep(3)
 
     lcd.clear()
 
     lcd.move_to(0, 0)
     lcd.putstr("Humedad:")
     lcd.move_to(0, 1)
-    lcd.putstr(hum)
-    sleep_ms(3000)
+    lcd.putstr(str(hum) + "%")
+    time.sleep(3)
     
     lcd.clear()
 
     lcd.move_to(0, 0)
     lcd.putstr("Cantidad de luz:")
     lcd.move_to(0, 1)
-    lcd.putstr(luz)
-    sleep_ms(3000)
+    lcd.putstr(str(luz) + "%")
+    time.sleep(3)
     
     lcd.clear()
     
